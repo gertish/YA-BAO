@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-12 flex flex-col ">
+    <div class="mt-12 flex flex-col">
         <h2 class="font-body font-bold mb-7 text-xl">Отзывы</h2>
         <div class="flex gap-12 ">
             <div class="text-center font-body font-semibold text-gray-400" v-for="(user, index) in users" :key="index">

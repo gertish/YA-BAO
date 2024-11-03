@@ -1,11 +1,12 @@
 <template>
-  <div class="flex justify-center">
+  <div>
+    <div>
     <Gallery />
   </div>
   <div class="flex justify-center">
     <Reviews />
   </div>
-  <div>
+  <div class="grid grid-cols-4 px-52 gap-4">
     <Card
         v-for="product in products"
         :key="product.id"
@@ -15,6 +16,8 @@
         :image_url="product.image_url"
     />
     </div>
+  </div>
+  
 </template>
 
 <script setup lang="ts">
@@ -33,4 +36,9 @@ onMounted(async () => {
 })
 </script>
 
-<style></style>
+<style scoped>
+
+
+
+</style>
+

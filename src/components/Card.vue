@@ -1,5 +1,5 @@
 <template>
-    <div class="card bg-white rounded-lg shadow-md p-4 w-72">
+    <div class="card bg-white rounded-lg shadow-md p-4">
         <img
             :src="image_url"
             :alt="name"

@@ -21,8 +21,8 @@ const products = ref<Product[]>([])
 onMounted(async () => {
   const allProducts = await fetchProducts()
   products.value = allProducts.filter(
-    product => product.categories_id.$id === '6720cb48001d859aff16',
+    product => product.categories_id.$id === '6720cbac000ae3d4b506',
   )
-  console.log('Супы', products.value)
+  console.log('Десерты', products.value)
 })
 </script>
